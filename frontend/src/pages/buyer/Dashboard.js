@@ -88,7 +88,7 @@ export default function BuyerDashboard() {
       const { amount: orderAmount, currency, id: order_id } = orderResponse.data;
   
       const options = {
-        key: 'rzp_test_AXYMTiWZ3E4u9l', // Replace with your actual key
+        key: 'your_razerpay_key', // Replace with your actual key
         amount: orderAmount,
         currency,
         name: 'Farmer Marketplace',
